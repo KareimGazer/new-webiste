@@ -5,7 +5,7 @@ body{
 
 header{
     display: flex;
-    gap: 10rem;
+    gap: 4rem;
     max-width: 100%;
     padding: 0;
     padding-left: 2em;
@@ -24,6 +24,7 @@ header p{
 
 .features{
     display: flex;
+    align-items: center;
     gap: 1rem;
     max-width: 100%;
     padding: 1em;
@@ -80,7 +81,7 @@ nav li {
     display: flex;
     text-align: center;
     padding-left: 2em;
-  }
+}
 
 
 footer{
@@ -104,4 +105,55 @@ footer{
 
 .foot-note.right{
     border-left: 1px solid;
+}
+
+.more-details{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: fantasy;
+}
+
+.project-img{
+    max-width: 60%;
+    border-radius: 50%;
+}
+
+footer img{
+    max-width: 80%;
+    padding-left: 2em;
+}
+
+.logo.links{
+    padding-left: 2em;
+    align-items: center;
+}
+  
+.logo a {
+    float: left;
+    display: flex;
+    text-align: center;
+    padding-left: 2em;
+    color: aliceblue;
+}
+
+.headings a{
+    float: left;
+    display: flex;
+    text-align: center;
+    padding: 1em;
+    color: red;
+    margin-left: 0;
+    font-size: 1.5em;
+}
+
+.heading-links{
+    max-width: 1em;
 }
